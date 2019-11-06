@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background: white;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,50 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body {
+	width: 90%;
+	margin: 5%;
+}
+/* navigation bar */
+.navigation {
+	width : 100%;
+	border: 1px solid red;
+	/* padding: 1%;	 */
+}
+.navigation nav a {
+	border: 1px solid red;
+	color: gray;
+	width: 12%;
+	padding: 1%;
+	margin-right: 1%; 
+	display: inline-block;
+}
+
+img .logo {
+	border: 1px solid red;
+	width: 18%;
+	padding: 1% 1% 1% 1%;
+	margin: 1% 1% 0 0; 
+	display: inline-block;
+}
+
+.started {
+	border: 1px solid gray;
+	color: gray;
+	padding: 5px 10px 5px 10px;
+	font-size: 20px;
+}
+.slogan{
+	display: inline-block;
+	width: 50%;
+	margin: 1% 1% 1% 1%;
+	font-size: 3em;
+	text-align: center;
+	color: black;
+}
+
+.roundcode{
+	display: inline-block;
+	width: 40%;
+	margin:1% 1% 1% 0;
+}
