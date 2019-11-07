@@ -80,20 +80,17 @@ body {
 }
 .navigation nav a {
 	color: gray;
-	min-width: 14%;
-	padding: 0 2% 1% 0%;
-	margin: 1% 2% 0 1%; 
+	min-width: 13%;
+	padding: 0 2% 1% 1%;
+	margin: 0% 2% 0 1%; 
 	display: inline-block;
-	/* text-align: center; */
+	text-align: center;
 	text-decoration: none;
 }
-
-.navigation img .logo {
-	width: 18%;
-	/* padding: 1% 1% 1% 1%; */
-	margin: 3% 1% 0 0; 
+.logo {
+	max-width: 14%;
+	padding: 1% 0% 0% 0%;
 	display: inline-block;
-	height: 2em;
 }
 
 .header {
@@ -117,10 +114,10 @@ body {
 .slogan{
 	display: inline-block;
 	margin: 1% 1% 3% 1%;
-	font-size: 5em;
+	font-size: 4em;
 	text-align: center;
 	color: black;
-	width:48%
+	width:47%;
 }
 
 .link:hover{
@@ -130,15 +127,16 @@ body {
 .roundcode {
 	/* border:1px solid red; */
 	display: inline-block;
-	width: 350px;
-	margin:5% 1% 1% 10%;
-	max-height: 400px;
+	max-width: 30%;
+	margin:8% 1% 0% 8%;
+	max-height: 300px;
 }
 
 .content1{
 	width: 100%;
 	padding: 0 1% 0% 0;
 }
+
 section .contentHalf {
 	/* border: 1px solid red; */
 	padding: 3% 0% 1% 0%;
@@ -161,7 +159,7 @@ section .contentHalf {
 .onethird{
 	/* border: 1px solid red; */
 	display: inline-block;
-	width: 32%;
+	width: 31%;
 	margin: 1% 1% 1% 0;
 }
 .contact{
