@@ -168,8 +168,15 @@ section .contentHalf {
 	width: 100%;
 	text-align: left;
 }
+
+address, phone, email {
+	display: block;
+}
+phone {
+	padding: 15px 0;
+}
 footer {
-	padding: 3% 0 3% 0;
+	padding: 3% 0;
 	width: 100%;
 	text-align: center;
 }
